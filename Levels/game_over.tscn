@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://6f20axw8sxjb"]
+
+[node name="Node2D" type="Node2D" unique_id=29342623]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=909873328]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=578030225]
+offset_left = 305.0
+offset_top = 177.0
+offset_right = 789.0
+offset_bottom = 428.0
+theme_override_font_sizes/font_size = 36
+text = "Congratulations! You Win!
+
+Thanks for Playing!"
+horizontal_alignment = 1
