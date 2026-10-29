@@ -528,6 +528,10 @@ shape = SubResource("CircleShape2D_t3d31")
 position = Vector2(0, -7)
 zoom = Vector2(4, 4)
 
+[node name="RayCast2D" type="RayCast2D" parent="Player" unique_id=1797375563]
+position = Vector2(-1, 9)
+target_position = Vector2(20, 0)
+
 [node name="Lever_1" type="Area2D" parent="." unique_id=1211741999]
 position = Vector2(-39, -69)
 script = ExtResource("5_rw4oy")

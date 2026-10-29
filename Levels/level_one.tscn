@@ -417,7 +417,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_cph7v"]
-radius = 6.0
+radius = 4.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2ik6o"]
 atlas = ExtResource("2_cph7v")
@@ -622,6 +622,10 @@ shape = SubResource("CircleShape2D_cph7v")
 [node name="Camera2D" type="Camera2D" parent="Level/Player" unique_id=1130228164]
 position = Vector2(0, -7)
 zoom = Vector2(4, 4)
+
+[node name="RayCast2D" type="RayCast2D" parent="Level/Player" unique_id=1711675923]
+position = Vector2(-1, 9)
+target_position = Vector2(20, 0)
 
 [node name="Pillar" type="RigidBody2D" parent="." unique_id=332556124]
 gravity_scale = 0.0
