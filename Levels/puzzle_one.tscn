@@ -25,6 +25,7 @@
 [ext_resource type="Script" uid="uid://cwmt3tisgrxhv" path="res://Levels/l_block_1.gd" id="23_jsoog"]
 [ext_resource type="Script" uid="uid://cbth3jr50xdja" path="res://Levels/finish.gd" id="24_62b5g"]
 [ext_resource type="Texture2D" uid="uid://c4ojdj1nr6ye2" path="res://button UI.png" id="25_4uijj"]
+[ext_resource type="AudioStream" uid="uid://xk7d00fh0u14" path="res://spooky.ogg" id="26_5ox5u"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3w040"]
 texture = ExtResource("1_8160w")
@@ -809,6 +810,10 @@ theme_override_styles/disabled = SubResource("StyleBoxEmpty_b2win")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_o4b75")
 icon = SubResource("AtlasTexture_p50d3")
 icon_alignment = 1
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1169076807]
+stream = ExtResource("26_5ox5u")
+autoplay = true
 
 [connection signal="body_entered" from="Lever_1" to="Lever_1" method="_on_body_entered"]
 [connection signal="timeout" from="Lever_1/spike_timer_10" to="Lever_1" method="_on_spike_timer_10_timeout"]
