@@ -1,10 +1,10 @@
-# Project 4: My Amazing P4
+# Project 4: The Lost Tetronimoes
 ![Godot Version](https://img.shields.io/badge/Godot-4.x-blue?logo=godot-
 engine&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-PC%20/%20Web-green)
 **Developed by:**
-- **[Your Name]** *Lead Programmer*
-- **[Your Name]** *Lead Artist*
+- **[Thomas Jones]** *Lead Programmer*
+- **[Thomas Jones]** *Lead Artist*
 Short introduction of your game.
 ---
 ## How to Play
