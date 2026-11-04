@@ -9,7 +9,7 @@ Short introduction of your game.
 ---
 ## How to Play
 - **Play in Browser:** [Click here to play on
-itch.io](https://username.itch.io/replace-with-your-game-url)
+itch.io](https://tommy-joness.itch.io/the-lost-tetronimoes)
 Add basic gameplay instructions here (OPTIONAL if you don't have it in game)
 ---
 ### Asset Credits & Attributions
