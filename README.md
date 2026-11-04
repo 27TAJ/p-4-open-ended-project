@@ -5,12 +5,17 @@ engine&logoColor=white)
 **Developed by:**
 - **[Thomas Jones]** *Lead Programmer*
 - **[Thomas Jones]** *Lead Artist*
-Short introduction of your game.
----
+
+
+Try to collect all 4 Tetronimoes in each level to unlock the door to the next stage. Avoid traps and solve puzzles to find the Tetronimoes!
+___
 ## How to Play
 - **Play in Browser:** [Click here to play on
 itch.io](https://tommy-joness.itch.io/the-lost-tetronimoes)
-Add basic gameplay instructions here (OPTIONAL if you don't have it in game)
+
+Use the arrows keys to move up, down, left, right
+Use spacebar while facing a pillar to pull it the opposite direction you're facing
+Click the reset arrow in the top right to reset the level if you get stuck
 ---
 ### Asset Credits & Attributions
 > *List the source of all external assets you downloaded or generated with AI,
@@ -32,7 +37,8 @@ background and resized to 32x32 in Piskel.)
 Source](https://example.com)) — Licensed under CC BY 4.0
 ---
 ## Known Issues
-- List any minor bugs or visual glitches you plan to fix in future builds.
+- Sometimes pillar movement is wonky
+- Grid movement can be off for pillar pushing sometimes
 ---
 ## Coursework Submission Links
 - **Presentation Slides:** [Link to Presentation
@@ -41,6 +47,6 @@ reflection here)
 - **Gameplay Video:** [Link to YouTube / Video File](https://www.youtube.com/watch?
 v=???)
 - **Game Design Document (GDD):** [Link to Latest GDD
-Document](https://docs.google.com/document/???) (All changes is shown in different
+Document](https://docs.google.com/document/d/13yU6wV1RftgpVAtKgSb5mRIojYFb76HF5vG4WoshGOI/edit?usp=sharing) (All changes is shown in different
 color)
 ---
