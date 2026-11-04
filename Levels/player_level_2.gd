@@ -73,7 +73,13 @@ func _physics_process(delta: float) -> void:
 			if not raycast.is_colliding() or raycast.get_collider() == self: # if raycast isnt colliding or is colliding with player
 				
 				var current_cell = floor_layer.local_to_map(floor_layer.to_local(collider.global_position))
-				var next_cell = current_cell + Vector2i(roundi(push_dir.x), roundi(push_dir.y))
+				var next_cell = current_cell
+				
+				if abs(push_dir.x) > abs(push_dir.y):
+					next_cell.x += roundi(push_dir.x)
+				else:
+					next_cell.y += roundi(push_dir.y)
+					
 				collider.global_position = floor_layer.to_global(floor_layer.map_to_local(next_cell)) # update pillar position
 
 				collider.linear_velocity = Vector2.ZERO
